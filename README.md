@@ -3,6 +3,7 @@ web相册
 
 ### | 使用的技术
 [zepto.js](http://css88.com/doc/zeptojs_api/) 类jquery库，进行dom操作
+
 [animate.css](https://daneden.github.io/animate.css/) css3库
 
 ### | 使用的事件
@@ -49,3 +50,7 @@ CSS 动画播放时，会发生以下三个事件：
 x.addEventListener("webkitAnimationEnd", myStartFunction);
 ```
 
+### 效果
+![image](http://images.cnblogs.com/cnblogs_com/zqzjs/885846/o_blog_2016-09-27_225327.png)
+
+![image](http://images.cnblogs.com/cnblogs_com/zqzjs/885846/o_blog_2016-09-27_225345.png)
