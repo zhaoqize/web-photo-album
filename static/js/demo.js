@@ -94,21 +94,21 @@
                     realh = parseInt((winHeight - winWidth * h / w) / 2);
 
                     CONST.wImage.css('width', 'auto')
-                        		.css('height', 'auto');
+                        .css('height', 'auto');
                     CONST.wImage.css('padding-left', '0px')
-                        		.css('padding-top', '0px');
+                        .css('padding-top', '0px');
 
                     //判断图片是竖图还是横图
                     //竖图：以高为标准，改变图片尺寸
                     //横图：以宽为标准，改变图片尺寸
                     if (h / w > 1.2) {
                         CONST.wImage.attr('src', imgsrc)
-                            		.css('height', winHeight)
-                            		.css('padding-left', realw + 'px');;
+                            .css('height', winHeight)
+                            .css('padding-left', realw + 'px');;
                     } else {
                         CONST.wImage.attr('src', imgsrc)
-                            		.css('width', winWidth)
-                            		.css('padding-top', realh + 'px');
+                            .css('width', winWidth)
+                            .css('padding-top', realh + 'px');
                     }
 
                     callback && callback();
