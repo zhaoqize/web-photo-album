@@ -7,14 +7,19 @@ web相册
 [animate.css](https://daneden.github.io/animate.css/) css3库
 
 ### | 使用的事件
-- 点击
-- 左滑
-- 右滑
+- 点击 tap 
+- 单击事件 singleTap
+- 双击事件 doubleTap
+- 滑动 swipe
+- 左滑 swipeLeft
+- 右滑 swipeRight
+- 上滑 swipeUp
+- 下滑 swipeDown
 
-> -  “touch”模块添加以下事件，可以使用 on 和 off。 tap —元素tap的时候触发。 singleTap and
-> - doubleTap — 这一对事件可以用来检测元素上的单击和双击。(如果你不需要检测单击、双击，使用 tap 代替)。 
-> - longTap — 当一个元素被按住超过750ms触发。 swipe, swipeLeft, swipeRight, swipeUp, swipeDown —
-> - 当元素被划过时触发。(可选择给定的方向) 这些事件也是所有Zepto对象集合上的快捷方法。
+> -  “touch”模块添加以下事件，可以使用 on 和 off。 tap —元素tap的时候触发。 
+> singleTap and doubleTap : 这一对事件可以用来检测元素上的单击和双击。(如果你不需要检测单击、双击，使用 tap 代替)。 
+> - longTap : 当一个元素被按住超过750ms触发。 
+> - swipe, swipeLeft, swipeRight, swipeUp, swipeDown — 当元素被划过时触发。(可选择给定的方向) 这些事件也是所有Zepto对象集合上的快捷方法。
 
 ```
 <style>.delete { display: none; }</style>
